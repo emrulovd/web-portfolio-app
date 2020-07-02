@@ -5,7 +5,8 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #d4d7de;
+    background-color: #000000;
+    opacity: 0.5;
     width: 100%;
     height: 70px;
     z-index: 1;
@@ -31,13 +32,16 @@
 
 a{
     margin: 15px;
-    color: #000000;
+    color: #fefefe;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Audiowide;
-
 }
 
 a:hover{
-    color: #ffffff;
+    color: #f00;
+    /* display: inline; */
+    /* background: #f00; */
+    /* box-shadow: 0 0 10px #f00, 0 0 40px #f00, 0 0 80px #f00; */
+    text-shadow: 0 10px 10px #f00, 0 10px 40px #f00, 0 10px 80px #f00;;
 }
