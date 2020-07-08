@@ -13,6 +13,8 @@ import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavBarDirective } from './directives/nav-bar.directive';
 import { ContactComponent } from './footer/contact/contact.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ButtonHighLightDirective } from './directives/button-high-light.directive';
 
 
 
@@ -27,17 +29,19 @@ import { ContactComponent } from './footer/contact/contact.component';
     FooterComponent,
     NavBarDirective,
     ContactComponent,
+    ButtonHighLightDirective,
 
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    ReactiveFormsModule
  
     
   ],
-  providers: [NavBarDirective],
+  providers: [NavBarDirective,  ButtonHighLightDirective],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
