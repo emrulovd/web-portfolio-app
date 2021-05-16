@@ -1,8 +1,8 @@
 .footer-area{
     position: relative;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-around; */
+    align-items: right;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
@@ -11,4 +11,19 @@
     background-color: #000000;
     color: #ffffff;
 
+}
+
+
+.contact-cont{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.row-footer{
+    width: 100%;
+
+}
+.copyright{
+    text-align: center;    
+    font-family: Audiowide;
 }

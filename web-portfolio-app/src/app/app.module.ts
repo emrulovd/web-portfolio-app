@@ -15,6 +15,8 @@ import { NavBarDirective } from './directives/nav-bar.directive';
 import { ContactComponent } from './footer/contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ButtonHighLightDirective } from './directives/button-high-light.directive';
+import { SocialComponent } from './footer/social/social.component';
+import { ButtonActiveDirective } from './directives/nav-button.directive';
 
 
 
@@ -30,6 +32,8 @@ import { ButtonHighLightDirective } from './directives/button-high-light.directi
     NavBarDirective,
     ContactComponent,
     ButtonHighLightDirective,
+    SocialComponent,
+    ButtonActiveDirective
 
   ],
   imports: [
@@ -41,7 +45,7 @@ import { ButtonHighLightDirective } from './directives/button-high-light.directi
  
     
   ],
-  providers: [NavBarDirective,  ButtonHighLightDirective],
+  providers: [NavBarDirective,  ButtonHighLightDirective, ButtonActiveDirective],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
